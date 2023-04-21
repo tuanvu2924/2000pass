@@ -81,8 +81,8 @@ yum -y install gcc net-tools bsdtar zip >/dev/null
 
 install_3proxy
 
-echo "working folder = /home/bkns1"
-WORKDIR="/home/bkns1"
+echo "working folder = /home/bkns"
+WORKDIR="/home/bkns"
 WORKDATA="${WORKDIR}/data.txt"
 mkdir $WORKDIR && cd $_
 
